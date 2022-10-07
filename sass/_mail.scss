@@ -1,0 +1,51 @@
+.mail{
+    margin-bottom: 120px;
+    &__container{
+        height: 200px;
+        background: $primary-color;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0 93px;
+        padding: 51px 45px 51px 40px;
+    }
+    
+    &__input{
+        width: 642px;
+        height: 70px;
+        background-color: $white-color;
+        border-radius: 5px;
+        list-style-type: none;
+        border: none; 
+    }
+    &__form{
+        display: flex;
+        align-items: center;
+        position: relative; 
+    }
+    &__input{
+        padding: 23px 0 23px 25px;
+        font-size: 16px;
+        font-family: $font;
+        line-height: calc(24 / 16);
+        color: $text-color;
+    }
+    &__btn{
+        display: inline-block;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: calc(30 / 20);
+        border-radius: 5px;
+        padding: 15px 33px 15px 39px;
+        background-color: $primary-color;
+        color: $white-color;
+        position: absolute;
+        right: 5px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+}

@@ -1,0 +1,35 @@
+.hero{
+    background-color: $bg1-color;
+    margin-bottom: 149px;
+    &__container{
+        display: flex;
+        gap: 0 24px;
+    }
+    &__main{
+        max-width: 602px;
+    }
+    &__heading{
+        font-size: 48.83px;
+        font-weight: 700;
+        line-height: calc(73 / 48.83);
+        color: $heading-color;
+        margin-bottom: 18px;
+        margin-top: 57px;
+    }
+    &__desc{
+       font-size: 16px;
+       line-height: calc(26.5 / 16);
+       max-width: 586px;
+       margin-bottom: 30px;
+       color: $text-color;
+    }
+    &__img {
+        filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));  
+         margin-right: -12px;
+        //  flex-shrink: 0;
+    }
+  
+    
+    
+   
+}

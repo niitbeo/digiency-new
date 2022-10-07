@@ -1,0 +1,60 @@
+.performance{
+    margin-bottom: 120px;
+    &__container{
+        background-color: $primary-color;
+        height: 273px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            left: 869px;
+            top: 70px;
+            width: 3px;
+            height: 134px;
+            background-color: $white-color;
+        }
+    }
+    &__main{
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        &::before{
+            content: "";
+            position: absolute;
+            left: 267px;
+            top: 70px;
+            width: 3px;
+            height: 134px;
+            background-color: $white-color;
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            left: 551px;
+            top: 70px;
+            width: 3px;
+            height: 134px;
+            background-color: $white-color;
+        }
+    }
+    &__img{
+        margin-bottom: 4px;
+        display: inline-flex;
+    }
+    &__title{
+        font-size: 39px;
+        line-height: calc(59 /39);
+        font-weight: 600;
+        color: $white-color;
+    }
+    &__desc{
+        font-size: 20px;
+        line-height: calc(30 / 20);
+        font-weight: 500;
+        color: $white-color;
+    }
+}

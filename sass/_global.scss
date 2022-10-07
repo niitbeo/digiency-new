@@ -1,0 +1,127 @@
+body{
+    font-family: $font;
+    color: $text-color;
+    line-height: 1;
+    font-weight: 400;
+    background-color: $bg1-color;   
+}
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+    
+}
+
+.btn{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    color: $heading-color;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: calc(30 / 20);
+    border-radius: 5px;
+    padding: 10px 22px;
+    &-outline{
+        outline: 1px solid $heading-color;  
+    }
+    &-primary{
+        background-color: $primary-color;
+        color: $white-color;
+    }
+}
+
+.btn-study{
+    display: inline-flex;
+    padding: 15px 47px 15px 47px;
+    background-color: $primary-color;
+    border-radius: 10px;
+    color: $white-color; 
+    font-size: 20px;
+    font-weight: 500;
+    line-height: calc(30 / 20);
+}
+
+.title{
+    line-height: calc(24 / 16);
+    color: $primary-color;
+    position: relative;
+    width: max-content;
+    &-center{
+        margin: 0 auto;
+        margin-bottom: 15px;
+        &::before{
+                content: "";
+                position: absolute;
+                height: 1px;
+                width: 40px;
+                background-color: $primary-color;
+                bottom: 8px;
+                right: -50px; 
+        }
+        &::after{
+            content: "";
+                position: absolute;
+                height: 1px;
+                width: 40px;
+                background-color: $primary-color;
+                bottom: 8px;
+                left: -50px; 
+        }
+    
+    }
+    &-left{
+        margin-bottom: 15px;
+        &::before{
+            content: "";
+            position: absolute;
+            height: 1px;
+            width: 40px;
+            background-color: $primary-color;
+            bottom: 8px;
+            right: -50px;  
+        }
+    }
+    
+    &-mail{
+        color: $white-color;
+    }
+    &-services{
+        margin-bottom: 8px;
+    }
+    // &-about,&-study,&-testimonial{
+    //     margin-bottom: 15px;
+    // }
+}
+
+
+.heading{
+   
+    font-size:  39.0625px;
+    line-height: calc(59 / 39.0625);
+    font-weight: 600;
+    color: $heading-color;
+    &-center{
+        margin: 0 auto;
+        text-align: center;
+    }
+    &-about{
+        max-width: 491px;
+    }
+    &-mail{
+        color: $white-color;
+        max-width: 355px;
+        font-size: 38.5px;
+    }
+    &-blog{
+        margin-bottom: 60px;
+    }
+    &-services{
+        margin-bottom: 30px;
+    }
+    
+}
